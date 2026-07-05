@@ -1,8 +1,8 @@
-import './Estudiantes'
+import Estudiantes from './Estudiantes'
 
 function App(){
   return <div>
-    <Estudiantes></Estudiantes>
+    <Estudiantes name="Juan"/>
   </div>
 }
 
