@@ -6,6 +6,8 @@ function Estudiantes(props){
             {/* necesitamos pasarle un valor desde nuestro componente padre */}
             <p>Name: {props.name}</p>
             <p>Age: {props.age}</p>
+            {/* se recomienda usar operador ternario con booleanos */}
+            <p>Student: {props.isisStudent ? "Yes" : "No"}</p>
         </div>
     )
 }
