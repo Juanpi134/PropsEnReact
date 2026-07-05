@@ -2,7 +2,7 @@
 function Estudiantes(props){
     //console.log(props)
     return (
-        <div>
+        <div className="student">
             {/* necesitamos pasarle un valor desde nuestro componente padre */}
             <p>Name: {props.name}</p>
             <p>Age: {props.age}</p>
