@@ -5,6 +5,7 @@ function Estudiantes(props){
         <div>
             {/* necesitamos pasarle un valor desde nuestro componente padre */}
             <p>Name: {props.name}</p>
+            <p>Age: {props.age}</p>
         </div>
     )
 }
