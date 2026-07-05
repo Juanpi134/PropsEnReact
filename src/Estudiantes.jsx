@@ -1,4 +1,4 @@
-import PropTypes from 'prop-types';
+//import PropTypes from 'prop-types';
 
 //props es un objeto de javascript
 function Estudiantes(props){
@@ -15,11 +15,11 @@ function Estudiantes(props){
 }
 
 //esto cuando lo imprimo por pantalla devuelve un objeto
-
+/*
 Estudiantes.PropTypes = {
     name : Proptypes.string,
     age: PropTypes.number,
     isStudent: PropTypes.bool
 }
-
+*/
 export default Estudiantes
